@@ -4,7 +4,7 @@ const friends: GnericArry<string> = ["apple", "orenge", "banana"];
 
 const rollNumber: GnericArry<number> = [10, 30, 40];
 
-const isEligableList: GnericArry<boolean> = [true, false, true]
+const isEligableList: Array<boolean> = [true, false, true]
 
 
 const userList : GnericArry<{name: string; age: number; range: number; isMarried: boolean;}> = [

@@ -7,3 +7,5 @@ type RichPeople ={
 type User = keyof RichPeople
 
 const vehicle:User = "isWife"
+
+const UserName: keyof RichPeople  = "store"

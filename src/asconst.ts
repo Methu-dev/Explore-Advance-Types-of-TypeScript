@@ -2,7 +2,8 @@ const UserRoll = {
     Admin: "ADMIN",
     Editor: "EDITOR",
     Viewer: "VIEWER"
-}
+}as const 
+
 
 // const canRoll = (role: typeof UserRoll[keyof typeof UserRoll])=>{
 //     if(role === UserRoll.Admin || role === UserRoll.Viewer){

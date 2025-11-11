@@ -12,3 +12,6 @@ type  B = undefined;
  type Check<T> = T extends keyof RichPeople ? true : false 
 
  type hasBike = Check<"bike">
+
+
+ 
